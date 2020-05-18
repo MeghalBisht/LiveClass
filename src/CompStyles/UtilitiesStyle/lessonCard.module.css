@@ -1,0 +1,32 @@
+/* .lessonCard{
+    margin: 20px 30px;
+    padding: 10px;
+    background: transparent linear-gradient(125deg, #F03748 0%, #F78179 100%) 0% 0% no-repeat padding-box;
+     border-radius: 10px;
+    width: 270px;
+    height: 150px;
+} */
+
+.lessonCard h2{
+    margin: 8px 0 5px 10px;
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.lessonCard ul{
+    padding: 0;
+    margin: 10px 4px;
+    display: flex;
+    font-weight: 600;
+    justify-content: flex-start;
+    color: rgba(255, 255, 255, 0.801);
+    margin-bottom: 30px;
+}
+
+.lessonCard ul li{
+    margin: 0 4px;
+    font-size: 15px !important;
+    list-style: none;
+}
+

@@ -1,0 +1,33 @@
+  .heading{
+       text-align: left;
+     font: Bold 25px/43px Segoe UI !important;
+       letter-spacing: 0px;
+       color: #707070;
+       opacity: 1;
+       text-transform: uppercase;
+  }
+    .appBar{
+        padding: 0 !important;
+        background: #FFFFFF 0% 0% no-repeat padding-box !important;
+        box-shadow: 0px 3px 16px #44414181 !important;
+        opacity: 1;
+    }
+    
+    .navBtn{
+        padding: 7px 28px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 4px #2b2b2b29;
+        border: 0.4px solid #8b8b8b8e;
+        border-radius: 5px;
+        font: Medium 20px/23px HelveticaNeue;
+        color: #2680EB;
+        opacity: 1;
+        margin: 0 15px;
+        margin-top: 5px;
+        outline: none;
+    }
+
+    .navBtn:hover{
+      cursor: pointer;
+    }
+ 

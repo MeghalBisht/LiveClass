@@ -1,0 +1,13 @@
+.liveCards{
+   margin-top: 0px;
+   display: flex;
+   flex-wrap: wrap;    
+}
+
+.liveSchedule{
+margin: 0 15px;
+}
+
+.liveSchedule h3{
+margin-bottom: 0px;
+}
