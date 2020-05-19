@@ -5,7 +5,7 @@ import LessonCard from './Utilities/LessonCard'
 
 function LessonPage() {
     return (
-        <div className={styles.lessonCards}>
+        <div style={{marginTop: "100px"}} className={styles.lessonCards}>
             <LessonCard title="Telugu" percentage="20" background="125deg, #1D976C 0%, #9DD138 100%" />
             <LessonCard title="Hindi" percentage="3" background="125deg, #2375D3 0%, #3BA9FE 100%" />
             <LessonCard title="science" percentage="50" background="125deg, #F03748 0%, #F78179 100%" />

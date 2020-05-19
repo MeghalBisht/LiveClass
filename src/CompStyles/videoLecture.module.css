@@ -1,0 +1,11 @@
+.videoWrapper{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video{
+    padding: 10px;
+    margin: 0 30px;
+}
