@@ -16,8 +16,8 @@ function App() {
         <Navbar />
         <DashBar />
         {/* <LiveSchedule /> */}
-        {/* <QuizPage /> */}
-        <LessonPage />
+        <QuizPage />
+        {/* <LessonPage /> */}
         {/* <LoginPage /> */}
         {/* <VideoLecturePage /> */}
         {/* <LiveStream /> */}

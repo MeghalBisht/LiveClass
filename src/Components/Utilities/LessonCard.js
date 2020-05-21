@@ -14,23 +14,26 @@ const ColorCard = styled.div`
 
 function LessonCard(props) {
 
+
     const [percentage, setPercentage] = useState(0);
     useEffect(() => {
         setPercentage(percentage);
     }, percentage);
 
     return (
-        <ColorCard className={styles.lessonCard} background={props.background}>
+        <>
+            <ColorCard className={styles.lessonCard} background={props.background}>
 
-            <h2>{props.title}</h2>
-            <ul>
-                <li>12  Videos</li>
-                <li>3 Exams</li>
-                <li>4 Subjects</li>
-            </ul>
-            <ProgressBar percentage={props.percentage} />
+                <h2>{props.title}</h2>
+                <ul>
+                    <li>12 Videos</li>
+                    <li>3 Exams</li>
+                    <li>4 Subjects</li>
+                </ul>
+                <ProgressBar percentage={props.percentage} />
 
-        </ColorCard>
+            </ColorCard>
+        </>
     )
 }
 

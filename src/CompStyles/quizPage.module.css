@@ -6,7 +6,7 @@
 
 .testHeader{
     display: grid;
-    grid-template-columns: 3fr .5fr;
+    grid-template-columns: 3fr 0.5fr;
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(49, 49, 49, 0.159);
 }
@@ -52,4 +52,16 @@ font:  35px/40px sans-serif;
 
 .submitQuizBtn{
     margin: 40px 0 !important;
+}
+
+.quizCompleted{
+  margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.startQuiz{
+    margin: 50px 0 !important;
 }
