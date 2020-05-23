@@ -7,9 +7,9 @@ const ColorCard = styled.div`
    background: transparent linear-gradient(${props => props.background}) 0% 0% no-repeat padding-box;   
    margin: 20px 30px;
     padding: 10px;
-     border-radius: 10px;
     width: 270px;
-    height: 150px;
+    border-radius: 10px;
+     min-height: 150px;
 `;
 
 function LessonCard(props) {
@@ -31,6 +31,7 @@ function LessonCard(props) {
                     <li>4 Subjects</li>
                 </ul>
                 <ProgressBar percentage={props.percentage} />
+                {props.children}
 
             </ColorCard>
         </>

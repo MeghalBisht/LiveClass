@@ -58,6 +58,7 @@ class MyTimer extends React.Component {
     return(
       <div>
         <Button  style={{margin:'5px 0'}} variant="contained" color="secondary" onClick={this.startTimer}>Start</Button>
+        <div style={{fontSize:"20px"}}>Time Left:</div>
         <div style={{fontSize:"30px"}}>{this.state.time.m}:{this.state.time.s}</div>
       </div>
     );

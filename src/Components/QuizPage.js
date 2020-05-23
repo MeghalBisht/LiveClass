@@ -115,7 +115,13 @@ function QuizPage() {
     const [score, setScore] = useState(0);
 
     const myAns = e => {
-        setSubmitAnswer((previousState) => ({ ...previousState, [e.target.name]: e.target.value }));
+        if(e.target.value){
+            setSubmitAnswer((previousState) => ({ ...previousState, [e.target.name]: e.target.value }));
+        }
+        else{
+            setSubmitAnswer((previousState) => ({ ...previousState, [e.target.name]: ""}));
+
+        }
     }
 
     const resetAllStates = () => {
@@ -179,7 +185,7 @@ function QuizPage() {
         
 
                     <div className={styles.testTimer}>
-                        <p> <span style={{fontSize:"20px"}}>Time left : </span><span><MyTimer submitQuizHandler={submitQuizHandler} time={10} /></span> </p>
+                        <p><span><MyTimer submitQuizHandler={submitQuizHandler} time={25} /></span> </p>
                     </div>
                 </section>
 

@@ -1,0 +1,54 @@
+
+
+.assignmentCards{
+    /* margin-top: 100px;
+    height: 60vh; */
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: center;
+   align-items: center;
+}
+.track{
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    margin:18px 4px 4px 4px;
+    padding: 0;
+}
+
+.assignmentTimer{
+    color: whitesmoke;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-around;
+    margin: 0px 2px;
+    margin-bottom: 10px;
+}
+
+.assignmentTimer p{
+    font-weight: bolder;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subHead{
+    color: rgba(245, 245, 245, 0.884);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.timeUp{
+    margin: 35px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+}
